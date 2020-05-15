@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "'chat app -real time application-'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scr/index",
+    "dev": "nodemon scr/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'Radwa yasser'",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
